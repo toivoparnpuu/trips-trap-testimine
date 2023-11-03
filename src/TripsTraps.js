@@ -77,7 +77,7 @@ function Game() {
             description = 'Go to game start';
         }
         return (
-            <li key={move}>
+            <li key={move} data-testid={`game-info-${move}`}>
                 <button onClick={() => jumpTo(move)}>{description}</button>
             </li>
         );
