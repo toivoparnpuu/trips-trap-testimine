@@ -1,23 +1,20 @@
-# Getting Started with Create React App
+# Trips traps trulli testimine Jest raamistikuga
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+See projekt on loodud React raamistikus. Projekti eesmärgiks on testid Trips Traps Trulli mängu kasutades Jest raamistikku.
 
-## Available Scripts
+## Projekti käivitamine
 
-In the project directory, you can run:
+Järgnevad skriptid on projekti juures olemas.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Käivitab rakenduse arenduse režiimis.\
+Ava brauseris [http://localhost:3000](http://localhost:3000).
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Käivita testid.\
+Tunnis käsitletud testimise näiteid on parandatud järgides [soovitusi](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library#not-using-screen).
 
 ### `npm run build`
 
