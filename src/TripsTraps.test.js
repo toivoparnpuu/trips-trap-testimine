@@ -52,7 +52,7 @@ test("7 sammu võiduni", () => {
   expect(statusElement).toHaveTextContent(/Winner: X/i);
 });
 
-test("kontrollime staatus teadet ja mängu", () => {
+test("kontrollime staatus teadet ja mängu ajalugu", () => {
   render(<App />);
   const ruut0 = screen.getByTestId("square-0");
   const ruut1 = screen.getByTestId("square-1");
